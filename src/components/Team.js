@@ -1,9 +1,20 @@
 import React from "react";
+import "./Team.css";
 
 function Team(){
     return(
         <div className="contentArea">
-            <h1>팀원소개페이지</h1>
+            <div className="team_title">
+                <h1>Team</h1>
+            </div>
+            <div className="team_main">
+                <div className="team_img"></div>
+                <div className="team_1"></div>
+                <div className="team_1"></div>
+                <div className="team_1"></div>
+                <div className="team_1"></div>
+                <div className="team_1"></div>
+            </div>
         </div>
     )
 }

@@ -9,7 +9,6 @@ function Home(){
             <div className="sub_1"></div>
             <div className="sub_2"></div>
             <div className="sub_3"></div>
-            <div><h1>hi</h1></div>
         </div>
         </div>
 

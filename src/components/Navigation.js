@@ -19,7 +19,7 @@ function Navigation(){
             <li><Link to="/contact" className="menu_item">Contact Us</Link></li>
         </ul>
         <div class="menu_icon">
-            <a href="#"><FontAwesomeIcon icon={faBars} size="2x" className="btn"/></a>
+            <FontAwesomeIcon icon={faBars} size="2x" className="btn"/>
         </div>
     </nav>
     );
