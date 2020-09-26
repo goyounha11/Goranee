@@ -14,6 +14,7 @@ function Team(){
                 <div className="team_1"></div>
                 <div className="team_1"></div>
                 <div className="team_1"></div>
+                <div>gkdl</div>
             </div>
         </div>
     )
