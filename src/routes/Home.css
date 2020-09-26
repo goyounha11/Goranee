@@ -1,0 +1,31 @@
+.main_visual{
+    height: 40vh;
+    width: 100vw;
+    background-color: lawngreen;
+}
+.sub_visual{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub_1{
+    width: 20vw;
+    height: 30vh;
+    background-color: blue;
+    border-radius: 10px;
+}
+.sub_2{
+    background-color: red;
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vh;
+}
+.sub_3{
+    background-color: pink;
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vh;
+}
