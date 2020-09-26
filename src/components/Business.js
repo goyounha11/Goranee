@@ -5,6 +5,7 @@ function Business(){
     return(
         <div className="contentArea">
             <h1>비지니스소개페이지</h1>
+            <h1>비지니스소개페이지</h1>
         </div>
     )
 }
