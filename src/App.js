@@ -18,6 +18,7 @@ function App(){
     <Route path="/team" component={Team} />
     <Route path="/partner" component={Partner} />
     <Route path="/contact" component={Contact} />
+  
     <Business/>
     <Team/>
     <Partner/>
