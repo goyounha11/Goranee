@@ -1,0 +1,57 @@
+.titleArea{
+  width: 100vw;
+  margin-bottom: 33px;
+}
+.contentArea{
+  width: 100vw;
+  margin-bottom: 226px;
+}
+p{
+  font-family: NotoSansKR;
+  text-align: center;
+}
+.title{
+  margin-bottom: 143px;  
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+  color: #313133;
+}
+p.title:after{
+  content: "";
+  display: block;
+  width: 192px;
+  border-bottom: 1px solid #bcbcbc;
+  margin: 18.5px auto;
+}
+.intro {
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  color: #666666;
+}
+.partner-container {
+  padding-inline-start: 20vw;
+  padding-inline-end: 20vw;
+  width : 60vw;
+  column-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-between;
+  justify-content: center;
+}
+.partner-item {
+  flex-basis: 130px;
+  flex-grow: 0;
+  padding: 10px;
+  height: 70px;
+  text-align: center;
+}
