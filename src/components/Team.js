@@ -1,27 +1,37 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Team.css";
-import Mainimg from "../image/Team/main.gif";
-import p1 from "../image/Team/p1.gif";
-
+import {ReactComponent as Team_main} from './Team_main.svg';
+import Mem1 from "./Mem1.js";
+import Mem2 from "./Mem2.js";
+import Mem3 from "./Mem3.js";
+import Mem4 from "./Mem4.js";
+import Mem5 from "./Mem5.js";
+import Mem6 from "./Mem6.js";
+import Mem7 from "./Mem7.js";
+import Mem8 from "./Mem8.js";
 function Team() {
+    const [word, setWord] = useState("");
     return (
         <div className="contentArea">
             <div className="team_title">
                 <h1>Team</h1>
             </div>
             <div className="team_main">
-                <img src={Mainimg} alt="bg" useMap="#Map1" />
-                <map name="Map1" id="Map">
-                    <area href="javascript:(function(){document.getElementById('img1').src={p1};})()" shape="circle" coords="240,180,140"/>
-                    <area href="javascript:(function(){document.getElementById('img1').src='https://www.xul.fr/images/collar.jpg';})()" shape="rect" coords="60,330,440,520"/>
-                </map>
+                <Team_main
+                    onClick = {(e) => {
+                        console.log(e.target.parentNode.parentNode.id);
+                        setWord(e.target.parentNode.parentNode.id);
+                    }}
+                />
             </div>
-
-                    <div class="selection">
-                        <p>click a brick</p>
-                    </div>
+            <div className="team_detail">
+                {(word === "p1" && <Mem1/> ) || (word === "p4_1_" && <Mem2/>) 
+                || (word === "p8_1_" && <Mem3/>) || (word === "p2_1_" && <Mem4/>)
+                || (word === "p7_1" && <Mem5/>) || (word === "p5_1_" && <Mem6/>)
+                || (word === "p6_1" && <Mem7/>) || (word === "p3_1_" && <Mem8/>)}
+            </div>
         </div >
-    )
+    );
 }
 
 export default Team;
