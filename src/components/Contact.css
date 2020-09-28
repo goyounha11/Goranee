@@ -1,0 +1,72 @@
+.c_container {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.c_text {
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    color: #313133;
+}
+
+.c_item1 {
+    height: 150px;
+    padding: 20px 0;
+    width: 20%;
+}
+
+.c_title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.c_item2 {
+    height: 150px;
+    padding: 23px 0;
+    width: 80%;
+}
+
+.c_address {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+.c_info {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.15px;
+    color: #313133;
+}
+
+.c_titleArea {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 150px;
+}
+
+.map {
+    padding-bottom: 100px;
+}
