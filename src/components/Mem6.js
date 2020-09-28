@@ -1,7 +1,17 @@
 import React from 'react';
 
 function Mem6(){
-    return <h1>6번째</h1>
+    return (
+        <div className="team_profile">
+            <div className="team_pic"></div>
+            <div className="team_history">
+                <h1>여섯번째</h1>
+            </div>
+        </div>
+        
+        
+        
+        );
 }
 
 export default Mem6;
