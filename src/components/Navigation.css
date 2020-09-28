@@ -1,5 +1,8 @@
+@import url(//cdn.jsdelivr.net/font-notosans-kr/1.0.0-v1004/NotoSansKR-2350.css);
+
 body{
     margin: 0;
+    font-family: NotoSansKR;
 }
 .top_container{
     display: flex;
@@ -7,7 +10,6 @@ body{
     align-items: center;
 
 }
-
 
 .menu{
     display: flex;

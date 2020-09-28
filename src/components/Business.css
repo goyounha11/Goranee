@@ -1,12 +1,3 @@
-@import url(//cdn.jsdelivr.net/font-notosans-kr/1.0.0-v1004/NotoSansKR-2350.css);
-
-.contentArea {
-    width: 100vw;
-    height: 1080px;
-    font-family: NotoSansKR;
-    margin-top: 0px;
-}
-
 .container{
     width: 100vw;
     height: 100vh;
