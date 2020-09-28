@@ -1,12 +1,5 @@
 .container{
-    width: 100vw;
-    height: 100vh;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .row {
@@ -38,10 +31,16 @@
     width: 20%;
     color: #707070;
 }
-
 .business_contentArea {
     height: 35%;
-    margin-bottom: 50px;
+    padding: 5%;
+}
+.business_contentArea_a {
+    border: black ;
+    background-color: yellow;
+}
+.business_contentArea_b {
+    background-color: yellowgreen;
 }
 .bcLetterArea {
     width: 50%;
