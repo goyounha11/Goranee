@@ -8,11 +8,11 @@ function Business(){
                 <div className="business_titleArea">
                     <p className="title">Business</p>
                 </div>
-                <div className="b_text bitem">
-                    <p className="b_text bctitle">
+                <div className="bitem bitem1">
+                    <p className="bctitle">
                         재고관리 프로그램 및<br /> 견적서 작성 외주 프로그램 개발
                     </p>
-                    <p className="b_text bcinfo">
+                    <p className="bcinfo">
                         재고관리 프로그램 및 견적서 작성 외주 프로그램 <br />
                         개발에 관한 설명이 들어가는 공간입니다.
                     </p>
