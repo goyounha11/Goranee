@@ -17,17 +17,6 @@ function Partner(){
                 <img src="http://placeimg.com/180/70/1" class="partner-item" alt=""></img>
                 <img src="http://placeimg.com/180/70/1" class="partner-item" alt=""></img>
             </div>
-            <div class="partner-container2">
-                <img src="http://placeimg.com/180/70/1" width="100%" heigh="100%"class="partner-item2" alt=""></img>
-                <img src="http://placeimg.com/200/200/1" width="100%" heigh="100%" class="partner-item2" alt=""></img>
-                <img src="http://placeimg.com/140/80/1"  width="100%" heigh="100%" class="partner-item2" alt=""></img>
-                <img src="http://placeimg.com/150/100/1"  width="100%" heigh="100%" class="partner-item2" alt=""></img>
-                <img src="http://placeimg.com/110/70/1"  width="100%" heigh="100%" class="partner-item2" alt=""></img>
-                <img src="http://placeimg.com/180/40/1"  width="100%" heigh="100%" class="partner-item2" alt=""></img>
-                <img src="http://placeimg.com/200/200/1"  width="100%" heigh="100%" class="partner-item2" alt=""></img>
-                <img src="http://placeimg.com/180/70/1"  width="100%" heigh="100%" class="partner-item2" alt=""></img>
-            </div>
-
         </div>
     )
 }

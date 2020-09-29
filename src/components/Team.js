@@ -1,14 +1,14 @@
 import React, {useState} from "react";
 import "./Team.css";
 import {ReactComponent as Team_main} from './Team_main.svg';
-import Mem1 from "./Mem1.js";
-import Mem2 from "./Mem2.js";
-import Mem3 from "./Mem3.js";
-import Mem4 from "./Mem4.js";
-import Mem5 from "./Mem5.js";
-import Mem6 from "./Mem6.js";
-import Mem7 from "./Mem7.js";
-import Mem8 from "./Mem8.js";
+import Mem1 from "./Member/Mem1.js";
+import Mem2 from "./Member/Mem2.js";
+import Mem3 from "./Member/Mem3.js";
+import Mem4 from "./Member/Mem4.js";
+import Mem5 from "./Member/Mem5.js";
+import Mem6 from "./Member/Mem6.js";
+import Mem7 from "./Member/Mem7.js";
+import Mem8 from "./Member/Mem8.js";
 function Team() {
     const [word, setWord] = useState("");
     return (

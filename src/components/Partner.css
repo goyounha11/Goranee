@@ -44,18 +44,3 @@ p.title:after{
   width: 160px;
   height: 70px;
 }
-.partner-container2{
-  width: 900px; /* this is variable*/
-  height: 900px;
-  box-sizing: border-box;
-  vertical-align: top;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 20px;
-  grid-column-end: span 1;
-  grid-row-end: span 2;
-}
-.partner-item2{
-  padding: auto;
-}

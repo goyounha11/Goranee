@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import map from "../image/goraneemap.png";
 
 function Contact(){
     return(
@@ -20,7 +21,7 @@ function Contact(){
                 </div>
             </div>
             <div className="map">
-                <img src="http://placeimg.com/1080/600/3" alt="Business content"/>
+                <img src={map} alt="Business content"/>
             </div>
         </div>
     );
