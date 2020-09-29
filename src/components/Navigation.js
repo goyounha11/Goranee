@@ -10,7 +10,7 @@ function Navigation(){
     return( 
     <nav className="top_container">
         <div className="logo">
-            <Link to="/"><img src={Logo} alt="Logo" width="150px" height="70px"/></Link>
+            <Link to="/"><img src={Logo} alt="Logo" height="100%"/></Link>
         </div>
         <ul className="menu">
             <li><Link to="/business" className="menu_item">Business</Link></li>
@@ -19,7 +19,7 @@ function Navigation(){
             <li><Link to="/contact" className="menu_item">Contact Us</Link></li>
         </ul>
         <div class="menu_icon">
-            <FontAwesomeIcon icon={faBars} size="2x" className="btn"/>
+            <FontAwesomeIcon icon={faBars} size="1.5x" className="btn"/>
         </div>
     </nav>
     );

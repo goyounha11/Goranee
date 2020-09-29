@@ -4,11 +4,15 @@ body{
     margin: 0;
     font-family: NotoSansKR;
 }
+.logo{
+    height: 60%;
+}
 .top_container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1400px;
+    height: 60px;
     margin: 0 auto;
 }
 
