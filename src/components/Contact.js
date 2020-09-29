@@ -15,7 +15,7 @@ function Contact(){
                     <p className="c_text c_address">ADDRESS</p>
                     <p className="c_text c_info">서울시 서초구 서초대로 396 강남빌딩 16F 1605호</p>
                 </div>
-                <div className="c_item1">
+                <div className="c_item3">
                     <p className="c_text c_title">찾아오는 길</p>
                 </div>
             </div>
