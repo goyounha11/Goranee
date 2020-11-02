@@ -28,20 +28,55 @@
     margin: 18.5px auto;
   }
 .team_profile{
+    margin-top:20px;
     width: 100%;
     height: 300px;
-    background-color: blue;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .team_pic{
     width: 45%;
-    height: 200px;
-    background-color: brown;
+    height: 300px;
+    overflow:hidden;
+    border-right: 1px solid #f2f2f2;
+}
+.team_pic img{
+  width: 160px;
+  display: block;
+  margin:auto;
+
 }
 .team_history{
+    text-align:center;
     width: 45%;
-    height: 200px;
-    background-color: yellow;
+    height: 300px;
+    
+}
+.history_title{
+  width: 200px;
+  margin-top: 30px;
+}
+.user_name{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+.user_engName{
+  opacity: 0.5;
+}
+.history_title p {
+  float: left;
+  margin: 10px 0  0 20px ;
+}
+.user_history_title{
+  float: left;
+  margin: 10px 0  0 20px ;
+}
+.user_history_content{
+  margin: 38px 0 0 120px;
+}
+.user_history_content p {
+  margin-top: 10px;
 }

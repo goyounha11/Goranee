@@ -13,6 +13,7 @@ function Team() {
     const [word, setWord] = useState("");
     return (
         <div className="contentArea">
+            <div className="teamMove"></div>
             <div className="titleArea">
                 <p className="title">Team</p>
             </div>

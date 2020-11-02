@@ -3,6 +3,7 @@ import "./Partner.css"
 function Partner(){
     return(
         <div className="contentArea">
+            <div className="partnerMove"></div>
             <div className="titleArea">
                 <p className="title">Partner</p>
                 <p className="intro">의뢰주신 고객사를 소개합니다.</p>
