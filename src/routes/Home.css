@@ -28,11 +28,24 @@
 #index{
     text-align: left;
     font-weight:bold;
-    width: 200px;    
+    width: 200px;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    margin-left: 20px;    
 }
 #text{
     text-align: left;
+    font-size: 15px;
     width: 200px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;    
+    margin-left: 20px;    
 }
 @media screen and (max-width:768px){
     .main_visual{
@@ -58,5 +71,6 @@
         margin: 0 10px 30px 10px;
         width: 200px;
         height: 180px;
+        
     }  
 }    

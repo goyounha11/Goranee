@@ -12,6 +12,7 @@ import Mem8 from "./Member/Mem8.js";
 function Team() {
     const [word, setWord] = useState("");
     return (
+        <div id="team">
         <div className="contentArea">
             <div className="titleArea">
                 <p className="title">Team</p>
@@ -31,6 +32,7 @@ function Team() {
                 || (word === "p6_1" && <Mem7/>) || (word === "p3_1_" && <Mem8/>)}
             </div>
         </div >
+        </div>
     );
 }
 

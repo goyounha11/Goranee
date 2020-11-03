@@ -4,6 +4,7 @@ import map from "../image/goraneemap.png";
 
 function Contact(){
     return(
+        <div id="contact">
         <div className="contentArea">
             <div className="c_container">
                 <div className="c_titleArea">
@@ -23,6 +24,7 @@ function Contact(){
             <div className="map">
                 <img src={map} alt="Business content"/>
             </div>
+        </div>
         </div>
     );
 }
