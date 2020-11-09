@@ -3,9 +3,26 @@ import React from 'react';
 function Mem5(){
     return (
         <div className="team_profile">
-            <div className="team_pic"></div>
+            <div className="team_pic">
+                <img src={person}/>
+            </div>
             <div className="team_history">
-                <h1>다섯번째</h1>
+                <div className="history_title">
+                    <span className="user_name">신철호</span>
+                    <span className="user_engName">Shin ChulHo</span>
+                    <p>Back-end Developer</p>
+                    <span className="user_history_title">History</span>
+                </div>
+                <div className="user_history_content">
+                    <p>하하하하</p>
+                    <p>하하하하</p>
+                    <p>하하하하</p>
+                    <p>하하하하</p>
+                    <p>하하하하</p>
+                    <p>하하하하</p>
+                    <p>하하하하</p>
+                    <p>하하하하</p>
+                </div>
             </div>
         </div>
         
