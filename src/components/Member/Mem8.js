@@ -1,4 +1,5 @@
 import React from 'react';
+import person from '../../image/Team/person2.png';
 
 function Mem8(){
     return (

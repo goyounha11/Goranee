@@ -11,6 +11,7 @@ import Mem7 from "./Member/Mem7.js";
 import Mem8 from "./Member/Mem8.js";
 function Team() {
     const [word, setWord] = useState("");
+    
     return (
         <div className="contentArea">
             <div className="teamMove"></div>
